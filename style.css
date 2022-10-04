@@ -1,0 +1,36 @@
+.elemento-flex{
+
+    width: 100px;
+    height: 100px;
+    border: 3px solid rgb(238, 238, 238);
+    background-color: rgb(15, 15, 15); 
+
+}
+
+.contenedor{
+    height: 800px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: 3px solid plum;
+}
+
+.elemento-2{
+    align-self: flex-start;
+}
+
+.elemento-5{
+   align-self: flex-end;
+    flex-wrap: wrap;
+}
+
+.elemento-1{
+    align-self: flex-start;
+}
+
+.elemento-3{
+   align-self: flex-end;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
